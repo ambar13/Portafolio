@@ -91,7 +91,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #f0f0f0;
+	background-color: #040104;
 	border-radius: 0px;
 	padding: 10px 0;
 	border-bottom: 2px solid #fff;
@@ -109,7 +109,7 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #000;
+	color: #FFF;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {

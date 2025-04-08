@@ -49,7 +49,11 @@ ul, ol {
 	height: 0;
 }
 .clearfix {
-	display: inline-block;
+	/* display: inline-block; */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
 }
 * html .clearfix {
 	height: 1%;
@@ -202,6 +206,9 @@ header .intro-text {
 #portfolio {
 	padding: 120px 0;
 	background: #f6f6f6;
+	margin-bottom: 3rem;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 2rem;
 }
 .categories {
 	padding-bottom: 30px;
